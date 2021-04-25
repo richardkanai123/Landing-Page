@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+    font-family: 'Lobster', sans-serif;
+    background-color: rgba(14, 5, 46, 0.918);
+    background: url(cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color:  #b8b8b865;
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    bottom: 5%;
+    z-index: 100;
+    border: none;
+    border-radius: 25px;
+}
+
+.container h1{
+    position: absolute;
+    top: 60px;
+    font-size: 50px;
+    padding: 10px 0px;
+    color: rgba(27, 14, 14, 0.76);
+    z-index: 2;
+}
+
+.container h2{
+    position: absolute;
+    font-size: 40px;
+    top: 30px;
+    color: rgba(243, 221, 23, 0.877);
+    z-index: 2;
+}
+
+#Username{
+    color: rgb(187, 55, 14);
+}
+
+#Dpic{
+    position: absolute;
+    opacity: 0.5;
+    width: 80%;
+    height: 80%;
+    transition: 0.5s ease-in;
+    perspective: 10px;
+
+}
+.time-holder{
+     z-index: 3;
+     width: 80%;
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     border: none;
+     border-radius: 40px;
+     outline: none;
+     padding: 10px 10px;
+}
+
+.time-holder span{
+    font-size: 100px;
+    color: rgba(15, 194, 45, 0.925);
+}
+
+.time-holder label{
+    color: rgb(46, 90, 141);
+    font-size: 40px;
+}
+
+
+.aim{
+    padding: 20px;
+    color: rgba(6, 122, 45, 0.925);
+    font-size: 50px;
+    z-index: 400;
+}
+
+#Aim{
+    padding: 30px 10px;
+    color: rgb(11, 90, 38);
+    font-size: 50px;
+}
+
+.calender{
+    position: absolute;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    top: 10px;
+    height: 100px;
+    width: 300px;
+    color: tomato;
+}
+
+
+.calender .month{
+    width: 100%;
+    color: rgb(6, 158, 143);
+    font-size: 30px;
+}
+
+.date{
+    border: thin rgb(204, 32, 32);
+    background-color: transparent;
+    font-size: 25px;
+}
+

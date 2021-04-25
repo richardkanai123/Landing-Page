@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1><span id="Username" contenteditable="true"></span></h1>
+        <h2 id="TimeofDay"> </h2>
+        <img id="Dpic" alt="load image">
+        <!-- <h3>It is:  </h3> -->
+
+        <div class="time-holder">
+            <div class="hours">
+                <span id="hrs"></span> 
+                <label for="hrs">:</label>
+             </div>
+             <div class="Miniutes">
+                <span id="min"></span> 
+                <label for="min">:</label>
+             </div>
+
+             <div class="Seconds">
+                <span id="sec"></span> 
+                <label for="sec">:</label>
+             </div>
+             <div class="ampm">
+                <span id="ampm"> AMPM</span>
+             </div>
+        </div>
+
+        <div class="aim">
+            Today's Programming Aim is: <br> <span id="Aim" contenteditable="true"></span>
+        </div>
+
+    </div>
+
+    <div class="calender">
+        <h4 class="date">date</h4>
+        <h3 class="month">MONTH</h3>
+        
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
